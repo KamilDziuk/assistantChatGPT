@@ -1,6 +1,6 @@
 
 document.querySelector("#response").style.display = 'none';
-const apiKey = "Sample key";
+const apiKey = "";
 
 document.querySelector("#questionButton").addEventListener("click", async () => {
 
@@ -12,8 +12,8 @@ response.innerHTML = "Wait a moment...";
 
 let dataContnet = data.map(testData => {
 
-  return ` <br>${testData.card_link} ${testData.card_link}<br>${testData.local_number} <br>${testData.status_name} <br>${testData.area_usable} <br>${testData.area} <br>${testData.rooms} <br>${testData.floor} <br>${testData.type} <br> ${testData.building}`
-
+  return ` <br>${testData.card_link} ${testData.card_link}<br>${testData.local_number} <br>${testData.status_name} <br>${testData.area_usable} <br>${testData.area} <br>${testData.rooms} <br>${testData.floor} <br>${testData.type} <br> ${testData.building}<br> ${testData.id}`
+  
 }).join(`\n`)
 
 
@@ -39,7 +39,7 @@ messages: [
             content: question
         }
 ],
-max_tokens: 500,
+max_tokens: 20,
 temperature: 0.9
 })
 });

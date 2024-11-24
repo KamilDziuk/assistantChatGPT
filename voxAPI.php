@@ -15,5 +15,7 @@ $data = array_map( fn($realestate) =>  [
 'rooms' => (string)$realestate->rooms,
 'floor' => (string)$realestate->floor,
 'type' => (string)$realestate->type,
+'id' => (string)$realestate->id,
+
 ], $xml->xpath("//realestate"));
 ?>
