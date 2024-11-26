@@ -1,9 +1,8 @@
 
 document.querySelector("#response").style.display = 'none';
 const apiKey = "";
-
+let conversationHistory = [];
 document.querySelector("#questionButton").addEventListener("click", async () => {
-
 const response = document.querySelector("#response");
 const question = document.querySelector("#question").value;
 document.querySelector("#response").style.display = 'block';
@@ -20,7 +19,7 @@ let dataContnet = data.map(testData => {
 
 
 
-let conversationHistory = [];
+
   
 conversationHistory.push(` Question:  ${question}`);
 
