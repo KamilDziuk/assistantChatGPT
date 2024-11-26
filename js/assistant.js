@@ -20,6 +20,12 @@ let dataContnet = data.map(testData => {
 
 
 
+let conversationHistory = [];
+  
+conversationHistory.push(` Question:  ${question}`);
+
+
+
 
 const apiResponse = await fetch("https://api.openai.com/v1/chat/completions", {
 method: "POST",
@@ -34,6 +40,11 @@ messages: [
          role: "system",
          content: `Provide data from ${dataContnet}.`
          },
+
+         {
+          role: "system",
+          content: `Provide data from ${conversationHistory}.`
+          },
         {
             role: "user", 
             content: question
