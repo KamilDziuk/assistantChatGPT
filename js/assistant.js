@@ -6,12 +6,12 @@ document.querySelector("#questionButton").addEventListener("click", async () => 
 const response = document.querySelector("#response");
 const question = document.querySelector("#question").value;
 document.querySelector("#response").style.display = 'block';
-response.innerHTML = "Wait a moment...";
+response.innerHTML = "";
 
-setTimeout( () =>{
+// setTimeout( () =>{
 
-  response.innerHTML = "I'm looking for information....";
-},3000)
+//   response.innerHTML = "I'm looking for information....";
+// },3000)
 let dataContnet = data.map(testData => {
 
   return ` <br>${testData.card_link} ${testData.card_link}<br>${testData.local_number} <br>${testData.status_name} <br>${testData.area_usable} <br>${testData.area} <br>${testData.rooms} <br>${testData.floor} <br>${testData.type} <br> ${testData.building}<br> ${testData.id}`

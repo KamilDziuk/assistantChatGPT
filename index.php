@@ -16,7 +16,7 @@
 <div id="headerText" >Your assistant</div>
 </div>
 <textarea id="question"  placeholder="Have a question?"></textarea><br>
-<textarea  id="response" ></textarea>
+<p  id="response" ></p>
 <button id="questionButton" >Ask a question</button>
 <!-- assistant   start -->
 <?php require "voxAPI.php" ?>
