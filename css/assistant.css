@@ -7,7 +7,7 @@
     transform: translateX(-50%);    
     max-width: 390px;
     width: 100%;
-    background: #ff2605;
+    background: #031c8e;
     border-radius: 8px;
     padding: 15px 25px 22px;
     transition: right 0.3s ease;
@@ -21,20 +21,21 @@
   padding-top: 5%;
     font-size: 17px;
       position: relative;
-    width:100%;
+    width:98.5%;
     height: 50px;
     
   }
   #headerText
   { 
+    color: #fff;
       padding-top: 5%;
       padding-bottom: 5%;
       font-size: 20px;
   }
   #response
   {
-    background-color: rgb(214, 214, 214);
-    color: black !important;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) !important;
       font-size: 17px;
       position: relative;
   margin-top: 5%;
@@ -42,7 +43,7 @@
     height: 200px;
     word-break: keep-all;
     overflow: auto;
-   padding: 2%;
+   padding: 0%;
       left: 50%;
    transform: translateX(-50%);
   }
@@ -50,7 +51,7 @@
   .imageLapp
   {
     position: relative;
-    width:30%;
+    width:10%;
     left:0px;
     top: 0px;
    margin-bottom: 0px;
@@ -65,8 +66,8 @@
     margin-bottom: 1%;
     margin-top: 1%;
     padding: 10px;
-    background: rgb(48, 73, 43) ;
-    color: #fff;
+    background: rgb(255, 255, 255) ;
+    color: #000000;
   
   }
   #questionButton:hover
@@ -75,7 +76,7 @@
     margin-bottom: 1%;
     margin-top: 1%;
     padding: 10px;
-  background-color:darkgrey;
+  background-color:rgb(57, 57, 57);
     color: #fff;
   
   }
