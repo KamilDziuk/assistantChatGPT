@@ -11,7 +11,7 @@
 
 <!-- assistant start -->
 <div class="assistantContainer">
-<img class="imageLapp" src="images/kdlb.png">
+
 <div class="headerCookie">
 <div id="headerText" >Your assistant</div>
 </div>

@@ -1,4 +1,6 @@
   
+
+
 .assistantContainer {
     position: absolute;
     top: 1%;
@@ -48,14 +50,7 @@
    transform: translateX(-50%);
   }
   
-  .imageLapp
-  {
-    position: relative;
-    width:10%;
-    left:0px;
-    top: 0px;
-   margin-bottom: 0px;
-  }
+
   
   
   
@@ -84,13 +79,7 @@
   
   @media (max-width: 500px) {
   
-  
-      .imageLapp
-  {
-    position: relative;
-  
-   margin-bottom: 0px;
-  }
+
     .headerCookie h2 {
   font-size: 15px;
       

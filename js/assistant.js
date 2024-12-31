@@ -6,7 +6,7 @@ document.querySelector("#questionButton").addEventListener("click", async () => 
 const response = document.querySelector("#response");
 const question = document.querySelector("#question").value;
 document.querySelector("#response").style.display = 'block';
-response.innerHTML = "";
+response.innerHTML = "Loading...";
 
 // setTimeout( () =>{
 
@@ -52,7 +52,7 @@ messages: [
             content: question
         }
 ],
-max_tokens: 20,
+max_tokens: 300,
 temperature: 0.9
 })
 });
