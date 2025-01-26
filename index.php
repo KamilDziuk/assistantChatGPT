@@ -13,7 +13,7 @@
 <div class="assistantContainer">
 
 <div class="headerCookie">
-<div id="headerText" >Your assistant</div>
+<div id="headerText" >Your  AI assistant</div>
 </div>
 <textarea id="question"  placeholder="Have a question?"></textarea><br>
 <p  id="response" ></p>
