@@ -1,5 +1,5 @@
 AssistantChatGPT
-
+![presentation](video/presentation.gif)
 Project description
 
 AssistantChatGPT is an AI Assistant that answers user questions using data retrieved from an external API and advanced OpenAI GPT language models. The project allows you to customize the answer by setting the role of the model, which makes it a flexible tool adapted to different user needs.
